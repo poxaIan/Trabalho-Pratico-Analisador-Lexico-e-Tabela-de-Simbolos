@@ -1,0 +1,21 @@
+Teste 9:
+
+program teste9
+
+declare
+
+integer numero, divisivel;
+
+begin
+
+read(numero);
+
+divisivel := numero % 2;
+
+if (divisivel = 0) then
+    write("O numero e divisivel por 2")
+else
+    write("O numero nao e divisivel por 2")
+end
+
+end
