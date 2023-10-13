@@ -1,0 +1,67 @@
+ID: Teste
+NUMBER: 9
+COLON: :
+PROGRAM: program
+ID: teste9
+DECLARE: declare
+INTEGER: integer
+ID: numero
+COMMA: ,
+ID: divisivel
+SEMICOLON: ;
+BEGIN: begin
+READ: read
+LPAREN: (
+ID: numero
+RPAREN: )
+SEMICOLON: ;
+ID: divisivel
+COLON: :
+EQUAL: =
+ID: numero
+PERCENT: %
+NUMBER: 2
+SEMICOLON: ;
+IF: if
+LPAREN: (
+ID: divisivel
+EQUAL: =
+NUMBER: 0
+RPAREN: )
+THEN: then
+WRITE: write
+LPAREN: (
+DOUBLE_QUOTE: "
+ID: O
+ID: numero
+ID: e
+ID: divisivel
+ID: por
+NUMBER: 2
+DOUBLE_QUOTE: "
+RPAREN: )
+ELSE: else
+WRITE: write
+LPAREN: (
+DOUBLE_QUOTE: "
+ID: O
+ID: numero
+ID: nao
+ID: e
+ID: divisivel
+ID: por
+NUMBER: 2
+DOUBLE_QUOTE: "
+RPAREN: )
+END: end
+END: end
+
+Tabela de Símbolos:
+Teste: [(2, 'ID')]
+teste9: [(4, 'ID')]
+numero: [(8, 'ID'), (12, 'ID'), (14, 'ID'), (17, 'ID'), (19, 'ID')]
+divisivel: [(8, 'ID'), (14, 'ID'), (16, 'ID'), (17, 'ID'), (19, 'ID')]
+O: [(17, 'ID'), (19, 'ID')]
+e: [(17, 'ID'), (19, 'ID')]
+por: [(17, 'ID'), (19, 'ID')]
+nao: [(19, 'ID')]

@@ -1,0 +1,86 @@
+ID: Teste
+NUMBER: 6
+COLON: :
+PROGRAM: program
+ID: teste6
+DECLARE: declare
+INTEGER: integer
+ID: a
+COMMA: ,
+ID: b
+COMMA: ,
+ID: c
+COMMA: ,
+ID: maior
+SEMICOLON: ;
+BEGIN: begin
+READ: read
+LPAREN: (
+ID: a
+RPAREN: )
+SEMICOLON: ;
+READ: read
+LPAREN: (
+ID: b
+RPAREN: )
+SEMICOLON: ;
+READ: read
+LPAREN: (
+ID: c
+RPAREN: )
+SEMICOLON: ;
+PERCENT: %
+ID: identifica
+ID: o
+ID: maior
+IF: if
+LPAREN: (
+ID: a
+GT: >
+ID: b
+AND: and
+ID: a
+GT: >
+ID: c
+RPAREN: )
+THEN: then
+ID: maior
+COLON: :
+EQUAL: =
+ID: a
+ELSE: else
+IF: if
+LPAREN: (
+ID: b
+GT: >
+ID: c
+RPAREN: )
+THEN: then
+ID: maior
+COLON: :
+EQUAL: =
+ID: b
+ELSE: else
+ID: maior
+COLON: :
+EQUAL: =
+ID: c
+END: end
+END: end
+SEMICOLON: ;
+WRITE: write
+LPAREN: (
+ID: maior
+RPAREN: )
+SEMICOLON: ;
+END: end
+
+Tabela de Símbolos:
+Teste: [(2, 'ID')]
+teste6: [(4, 'ID')]
+a: [(8, 'ID'), (12, 'ID'), (20, 'ID'), (20, 'ID'), (22, 'ID')]
+b: [(8, 'ID'), (14, 'ID'), (20, 'ID'), (26, 'ID'), (28, 'ID')]
+c: [(8, 'ID'), (16, 'ID'), (20, 'ID'), (26, 'ID'), (32, 'ID')]
+maior: [(8, 'ID'), (18, 'ID'), (22, 'ID'), (28, 'ID'), (32, 'ID'), (38, 'ID')]
+identifica: [(18, 'ID')]
+o: [(18, 'ID')]

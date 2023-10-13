@@ -1,0 +1,92 @@
+ID: Teste
+NUMBER: 3
+COLON: :
+PROGRAM: program
+ID: teste3
+DECLARE: declare
+INTEGER: integer
+ID: id
+COMMA: ,
+ID: qtd
+COMMA: ,
+ID: cont
+COMMA: ,
+ID: soma
+SEMICOLON: ;
+BEGIN: begin
+ID: qtd
+COLON: :
+EQUAL: =
+NUMBER: 5
+SEMICOLON: ;
+ID: cont
+COLON: :
+EQUAL: =
+NUMBER: 5
+SEMICOLON: ;
+ID: soma
+COLON: :
+EQUAL: =
+NUMBER: 0
+SEMICOLON: ;
+DO: do
+WRITE: write
+LPAREN: (
+DOUBLE_QUOTE: “
+ID: Idade
+COLON: :
+DOUBLE_QUOTE: ”
+RPAREN: )
+SEMICOLON: ;
+READ: read
+LPAREN: (
+ID: id
+RPAREN: )
+SEMICOLON: ;
+ID: soma
+COLON: :
+EQUAL: =
+ID: soma
+HASH: #
+ID: id
+SEMICOLON: ;
+ID: cont
+COLON: :
+EQUAL: =
+ID: cont
+MINUS: –
+NUMBER: 1
+SEMICOLON: ;
+WHILE: while
+LPAREN: (
+ID: cont
+GT: >
+NUMBER: 0
+RPAREN: )
+SEMICOLON: ;
+WRITE: write
+LPAREN: (
+DOUBLE_QUOTE: “
+ID: Media
+COLON: :
+DOUBLE_QUOTE: ”
+RPAREN: )
+SEMICOLON: ;
+WRITE: write
+LPAREN: (
+ID: soma
+OPERATOR: /
+ID: qtd
+RPAREN: )
+SEMICOLON: ;
+END: end
+
+Tabela de Símbolos:
+Teste: [(2, 'ID')]
+teste3: [(4, 'ID')]
+id: [(8, 'ID'), (22, 'ID'), (24, 'ID')]
+qtd: [(8, 'ID'), (12, 'ID'), (32, 'ID')]
+cont: [(8, 'ID'), (14, 'ID'), (26, 'ID'), (26, 'ID'), (28, 'ID')]
+soma: [(8, 'ID'), (16, 'ID'), (24, 'ID'), (24, 'ID'), (32, 'ID')]
+Idade: [(20, 'ID')]
+Media: [(30, 'ID')]

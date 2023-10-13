@@ -1,0 +1,81 @@
+ID: Teste
+NUMBER: 4
+COLON: :
+PROGRAM: program
+ID: teste4
+DECLARE: declare
+INTEGER: integer
+ID: i
+COMMA: ,
+ID: j
+COMMA: ,
+ID: k
+COMMA: ,
+ID: _var1
+SEMICOLON: ;
+BEGIN: begin
+ID: i
+COLON: :
+EQUAL: =
+NUMBER: 4
+OPERATOR: *
+LPAREN: (
+NUMBER: 5
+OPERATOR: -
+NUMBER: 3
+RPAREN: )
+OPERATOR: *
+OPERATOR: -
+NUMBER: 50
+OPERATOR: /
+NUMBER: 10
+SEMICOLON: ;
+ID: j
+COLON: :
+EQUAL: =
+ID: i
+OPERATOR: *
+NUMBER: 10
+SEMICOLON: ;
+ID: k
+COLON: :
+EQUAL: =
+ID: i
+OPERATOR: *
+ID: j
+OPERATOR: /
+ID: k
+SEMICOLON: ;
+ID: k
+COLON: :
+EQUAL: =
+OPERATOR: -
+NUMBER: 4
+OPERATOR: +
+NUMBER: 3
+DOLLAR: $
+SEMICOLON: ;
+WRITE: write
+LPAREN: (
+ID: i
+RPAREN: )
+SEMICOLON: ;
+WRITE: write
+LPAREN: (
+ID: j
+RPAREN: )
+SEMICOLON: ;
+WRITE: write
+LPAREN: (
+ID: k
+RPAREN: )
+SEMICOLON: ;
+END: end
+
+Tabela de Símbolos:
+Teste: [(2, 'ID')]
+teste4: [(4, 'ID')]
+i: [(8, 'ID'), (12, 'ID'), (14, 'ID'), (16, 'ID'), (20, 'ID')]
+j: [(8, 'ID'), (14, 'ID'), (16, 'ID'), (22, 'ID')]
+k: [(8, 'ID'), (16, 'ID'), (16, 'ID'), (18, 'ID'), (24, 'ID')]
+_var1: [(8, 'ID')]

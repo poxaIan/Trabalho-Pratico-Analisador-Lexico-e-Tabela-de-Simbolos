@@ -1,0 +1,56 @@
+ID: Teste
+NUMBER: 5
+COLON: :
+PROGRAM: program
+ID: teste5
+PERCENT: %
+ID: programa
+ID: com
+IF: if
+DECLARE: declare
+INTEGER: integer
+ID: j
+COMMA: ,
+ID: k
+SEMICOLON: ;
+BEGIN: begin
+READ: read
+LPAREN: (
+ID: j
+RPAREN: )
+SEMICOLON: ;
+READ: read
+LPAREN: (
+ID: k
+RPAREN: )
+SEMICOLON: ;
+IF: if
+LPAREN: (
+ID: k
+LT: <
+GT: >
+NUMBER: 0
+RPAREN: )
+THEN: then
+ID: result
+COLON: :
+EQUAL: =
+ID: j
+OPERATOR: /
+ID: k
+ELSE: else
+ID: result
+COLON: :
+EQUAL: =
+NUMBER: 0
+END: end
+END: end
+
+Tabela de Símbolos:
+Teste: [(2, 'ID')]
+teste5: [(4, 'ID')]
+programa: [(6, 'ID')]
+com: [(6, 'ID')]
+j: [(10, 'ID'), (14, 'ID'), (20, 'ID')]
+k: [(10, 'ID'), (16, 'ID'), (18, 'ID'), (20, 'ID')]
+result: [(20, 'ID'), (24, 'ID')]
