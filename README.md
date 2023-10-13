@@ -1,0 +1,1 @@
+# Trabalho-Pratico-Analisador-Lexico-e-Tabela-de-Simbolos
